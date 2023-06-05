@@ -5,7 +5,7 @@ body{
 .box{
     color: white;
     position: absolute;
-    top: 50%;
+    top: 50%;                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgb(0, 0, 0, 0.6);
@@ -23,7 +23,7 @@ legend{
     padding: 10px;
     text-align: center;
     background-color: dodgerblue;
-    border-radius: 8px;
+    border-radius: 8px;     
 }
 
 .inputbox {

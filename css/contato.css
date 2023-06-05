@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+header {
+    background-color: #A87E0F;
+    padding: 20px;
+}
+
+
+#logo{
+    border-radius: 20px ;
+    width: 100px;
+    
+}
+
+.titulo-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    color: white;
+}
+
+
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    height: 550px;
+}
+
+.inputbox {
+    position: relative;
+}
+
+.inputuser{
+    background:none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 3px;
+}
+
+
+
+#submit{
+    margin-top: 10px;
+    background-image: linear-gradient(to right,rgb(186, 93, 0), rgb(255, 208, 0));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(255, 183, 0), rgb(255, 251, 0));
+}
+
+fieldset{
+    width: 95%;
+    height: 530px;
+    color: white;
+}
+
+legend{
+    border: 1px solid rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;     
+}
+form{
+    border-color: black;
+}
+
+
+.Mensagem{
+    background:none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+
+footer {
+    background-color: #A87E0F;
+    position: fixed;
+    bottom: 0px;
+    padding: 20px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffa600;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

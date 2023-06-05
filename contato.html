@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="Logo_Igreja_Digital-removebg-preview.png" alt="">
+        <h1 class="titulo-principal">Igreja Digital</h1>
+    </header>
+    <main>
+      <div class="box">
+        <form action="">
+            <fieldset>
+                <legend>Contato</legend>
+                <br>
+                <div class="inputbox">
+                    <label for="name" class="Labelinput">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" class="inputuser" required>
+                </div>
+                <br>
+                <br>
+                <div class="inputbox">
+                    <label for="email" class="Labelinput">Email</label>
+                    <input type="text" name="email" id="email" class="inputuser" required>
+                </div>
+                <br>
+                <br>
+                <div class="inputbox">
+                    <label for="Telefone" class="Labelinput">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                </div>
+                <br>
+                <br>
+                <div class="inputmensagem">
+                    <label for="name" class="labelmensagem">Mensagem</label>
+                    <input type="text" name="nome" id="nome" class="Mensagem" required>
+                </div>
+                <br>
+                <p>Opções de contato:</p>
+                    <input type="radio" id="email" name="contato" value="Email" required>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="radio" id="telefone" name="contato" value="telefone" required>
+                    <label for="telefone">Telefone</label>
+                    <br>
+                    <input type="radio" id="whatsapp" name="contato" value="whatsapp" required>
+                    <label for="whatsapp">Whatsapp</label>
+                    <br><br>
+                <input type="submit" name="Enviar Mensagem" id="submit">
+
+            </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer>
+       <h5> Desenvolvido por <a href="https://www.instagram.com.br/lacerda_joaovitor"> @lacerda_joaovitor </a> </h5>
+    </footer>
+</body>
+</html>
